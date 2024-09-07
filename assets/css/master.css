@@ -1,0 +1,179 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+
+.container{
+  display: flex;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: space-around;
+  }
+
+
+  .pharagragh{
+    font-family:LeagueSpartan-SemiBold  ;
+    max-width: 400px;
+    color: hsl(303, 10%, 53%);
+    font-weight: 400;
+    margin-left: 160px;
+    margin-top: 40px;
+    line-height: 26px;}
+
+
+h1{
+  font-size: 45px;
+  font-family: LeagueSpartan;
+  color: hsl(300, 43%, 22%);
+ max-width: 400px;
+ margin-left: 160px;
+}
+
+
+
+.first-box,.second-box,.third-box{
+background-color:hsl(300, 24%, 96%);
+border-radius: 5px;
+width: 400px;
+height: 40px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row-reverse;
+align-content: center;
+justify-content: center;
+gap:30px;}
+
+.first-box{align-self:flex-start ;}
+
+.second-box{align-self: center ;}
+
+.third-box{align-self: flex-end ;}
+
+.Star-text{
+  font-family:LeagueSpartan-SemiBold  ;
+}
+
+
+.stars{
+  color: hsl(300, 43%, 22%);
+  width: 50%;
+  padding-right: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 35px;
+  padding-left: 90px;
+}
+.box.Colton{align-self: flex-start;}
+.box.Irene{align-self:center ;}
+.box.Anne{align-self: flex-end;}
+
+.box{
+  width: 350px;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.box-header{
+  margin-top: 5px;
+  display: flex;
+}
+.box-header h2{
+  font-size: 20px;
+  font-family: LeagueSpartan;
+  color: hsl(0, 0%, 100%) ;
+}
+.box-header p{
+  font-family: LeagueSpartan-Medium;
+ color:  hsl(333, 80%, 67%);
+ margin-top:5px;
+}
+.image{
+  border-radius: 50px;
+  width: 50px;
+  margin-top: 27px;
+  margin-left: 30px;
+}
+.box-info{
+  margin: 30px;
+  margin-left: 10px;
+}
+.box-text{
+  padding-bottom: 20px;
+  font-family: LeagueSpartan-Medium;
+  color: hsl(0, 0%, 100%) ;
+  max-width: 300px;
+ line-height: 25px;
+  margin: 0 auto;
+}
+
+
+.Colton{
+  margin-left: 8%;
+}
+.Anne{
+  margin-top: 50px;
+}
+.Irene{
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+  font-family: LeagueSpartan;
+  src: url(/public/font/LeagueSpartan-ExtraBold.ttf);
+}
+@font-face {
+  font-family:LeagueSpartan-SemiBold  ;
+  src: url(/public/font/LeagueSpartan-SemiBold.ttf);
+}
+@font-face {
+  font-family: LeagueSpartan-Medium;
+  src: url(/public/font/LeagueSpartan-Medium.ttf);
+}
+
+@font-face {
+  font-family:LeagueSpartan-Light ;
+  src: url(/public/font/LeagueSpartan-Light.ttf);
+}
